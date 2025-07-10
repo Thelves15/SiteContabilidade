@@ -241,7 +241,7 @@ Mensagem: ${data.message}`
 
   // --- WhatsApp Integration ---
   function openWhatsApp(message = "") {
-    const phone = "5511999999999" // Replace with actual phone number
+    const phone = "5598970269290" // Replace with actual phone number
     const defaultMessage = message || "Olá Márcia! Gostaria de saber mais sobre os serviços contábeis para MEI."
     const url = `https://wa.me/${phone}?text=${encodeURIComponent(defaultMessage)}`
     window.open(url, "_blank")
